@@ -1,5 +1,5 @@
 <template>
-  <div class="group card m-2">
+  <div class="group card m-2 md:flex-[1_0_30%]">
     <div class="overflow-hidden">
       <div
         :class="[
@@ -9,8 +9,8 @@
       ></div>
     </div>
     <div class="card-content text-white p-6">
-      <h2 class="text-3xl text-[#B7CF34]">{{ this.item.title }}</h2>
-      <p class="my-3 font-medium text-l">{{ this.item.description }}</p>
+      <h2 class="text-2xl text-[#B7CF34]">{{ this.item.title }}</h2>
+      <p class="my-3 font-medium">{{ this.item.description }}</p>
       <button
         class="
           py-2
@@ -42,7 +42,4 @@ export default {
 </script>
 
 <style>
-.card {
-  flex: 1 0 30%;
-}
 </style>

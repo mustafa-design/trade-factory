@@ -1,12 +1,12 @@
 <template>
   <section class="bg-[#222] py-24">
-    <div class="mx-auto w-[1140px]">
-      <h4 class="text-4xl text-[#B7CF34]">دورات فوركس تدريبية</h4>
-      <p class="text-white text-2xl my-3 tracking-wide leading-10">
+    <div class="mx-auto xl:w-2/3">
+      <h4 class="md:text-4xl text-3xl text-[#B7CF34]">دورات فوركس تدريبية</h4>
+      <p class="text-white md:text-xl text-md my-3 tracking-wide leading-10">
         ابدأ رحلة احتراف التداول من أي مكان وفي أي وقت
       </p>
       <div class="line mx-auto my-8 bg-white width w-24 h-px"></div>
-      <div class="flex flex-wrap">
+      <div class="flex flex-wrap justify-center">
         <CourseCard v-for="item in content" :item="item" :key="item.id" />
       </div>
     </div>

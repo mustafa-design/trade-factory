@@ -1,8 +1,8 @@
 <template>
   <section class="bg-[#222] py-24">
-    <div class="mx-auto w-[1140px]">
-      <h4 class="text-4xl text-[#B7CF34]">افتح حساب تداول تجريبي</h4>
-      <p class="text-white text-xl my-3 tracking-wide leading-10">
+    <div class="mx-auto px-3 lg:w-2/3">
+      <h4 class="text-3xl text-[#B7CF34]">افتح حساب تداول تجريبي</h4>
+      <p class="text-white text-lg my-3 tracking-wide leading-10">
         تداول الآن بأموال افتراضية بدون مخاطر وبدون إيداع وطبق ما تعلمته خلال
         رحلتك في أكاديمية تريدر فاكتوري
       </p>

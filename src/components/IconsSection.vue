@@ -1,11 +1,11 @@
 <template>
   <section class="bg-[#292929] py-24 border-[#707070] border">
-    <div class="mx-auto w-[1140px] flex justify-around py-9">
+    <div class="mx-auto 2xl:w-2/3 md:flex justify-around py-9">
       <img
         width="145"
         height="135"
         src="https://traderfactory.com/wp-content/uploads/2021/05/Group-111@2x.png"
-        class="attachment-large size-large"
+        class="mx-auto my-10"
         alt=""
         loading="lazy"
         srcset="
@@ -18,7 +18,7 @@
         width="138"
         height="139"
         src="https://traderfactory.com/wp-content/uploads/2021/05/Group-113@2x.png"
-        class="attachment-large size-large"
+        class="mx-auto my-10"
         alt=""
         loading="lazy"
         srcset="
@@ -32,7 +32,7 @@
         width="140"
         height="98"
         src="https://traderfactory.com/wp-content/uploads/2021/05/Group-114@2x.png"
-        class="attachment-large size-large"
+        class="mx-auto my-10"
         alt=""
         loading="lazy"
         srcset="
@@ -45,7 +45,7 @@
         width="141"
         height="147"
         src="https://traderfactory.com/wp-content/uploads/2021/05/Group-115@2x.png"
-        class="attachment-large size-large"
+        class="mx-auto my-10"
         alt=""
         loading="lazy"
         srcset="
